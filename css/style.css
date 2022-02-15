@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .flex{
@@ -26,7 +26,7 @@
   
 /****Header****/
 
-  header {
+header {
     display: flex;
     height: 80px;
     position: fixed;
@@ -39,31 +39,31 @@
     left: 0%;
 }
 
-    #logocontainer{
+#logocontainer{
     margin-left: 1%;
 }
 
-    #buttonregister{
+#buttonregister{
     margin-right: 1%;
 }
 
-    #logo{
+#logo{
     margin-right: 3%;   
 }
 
-    #logo img{
+#logo img{
     filter: invert(100%);
     height: 35px;
     width: 35px;
 }
 
-    #logotext{
+#logotext{
     color:white;
     font-size: 0.7rem;
     margin-top: 5%;
 }
 
-  #buttonregister button{
+#buttonregister button{
     text-align: center;
     padding : 2% 3%;
     font-weight: bold;
@@ -87,7 +87,7 @@
 
   /****Aside****/
 
-  aside {
+aside {
     width: 10%;
     background-color: black;
     padding-top: 80px;
@@ -97,7 +97,7 @@
     justify-content: space-between;
 }
 
-  #leftbar button{
+#leftbar button{
     text-align: left;
     color: lightslategray;
     font-weight: bold;
@@ -110,18 +110,18 @@
     color: white;
 } 
 
-  .buttonaside button{
+.buttonaside button{
     padding-left: 15px;
     padding-top: 3px;
 }
 
-  .buttonaside button i{
+.buttonaside button i{
     padding: 5px;
     font-size: 1.1rem;
 }
 
-#buttonaside button:hover{
-    border-left: 2px solid limegreen;
+.buttonaside button:hover{
+    border-left: 2px solid lime;
 }
 
 #playlist {
@@ -204,8 +204,74 @@ main {
     width: 90%;
     flex-grow: 1;
     overflow-y: auto;
+    padding-top: 80px;
 }
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+} 
+
+nav ul li {
+    margin: 10px;
+    display: inline-block;
+    list-style-type: none;
+} 
+
+nav ul li button{
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: lightslategray;
+} 
+
+nav ul li button:hover{
+    color: white;
+    border-bottom:1px solid lime;
+    border-width: 15%;
+} 
+
+#Recentlyplayed {
+    margin: 2%;
+} 
+
+#Recentlyplayed h2{
+    color: white;
+} 
   
+.songgallery {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 30px;
+    gap: 2;
+    color: white;
+} 
+
+.card img{
+    max-width: 250px;
+    max-height: auto;
+} 
+
+.songtext div{
+    color: lightslategray;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+} 
+
+.songtext h3{
+    text-align: center;
+} 
+
+
   /****Footer****/
 
   footer {
