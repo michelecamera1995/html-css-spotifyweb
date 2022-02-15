@@ -201,10 +201,12 @@ aside {
 
 main {
     /*flex-grow: 1;*/
+    height: calc(100vh - 80px);
     width: 90%;
     flex-grow: 1;
     overflow-y: auto;
     padding-top: 80px;
+    background-color: #141922;
 }
 
 nav {
@@ -291,7 +293,51 @@ nav ul li button:hover{
   /****Footer****/
 
   footer {
-    align-self: flex-end;
-    flex-basis: 80px;
+    background-color: #282828;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#leftcontrol {
+    width: 10%;
+}
+
+
+#thumbnailsong {
+    margin-right: 10%;
+}
+
+#thumbnailsong img{
+    max-width: 65px;
+    max-height: auto;
+    padding: 5%; 
+}
+
+#thumbnailsong div{
+    padding-top: 9%;
+    font-size: 0.7rem;
+    color: lightslategray;
+}
+
+#thumbnailsong div h5{
+    color: white;
+    font-size: 0.8rem;
+}
+
+#leftbtn button{
+    padding: 25%;
+    color:lightslategray;
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+}
+
+#leftcontrol button:hover{
+    color:white;
+}
+
+  
   
