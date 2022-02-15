@@ -175,6 +175,8 @@ aside {
     border: none;
     background-color: transparent;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #leftbarbottom button:not(#user) {
@@ -185,6 +187,11 @@ aside {
     border-radius: 50%;
     border: 0.5px solid lightslategray;
     margin: 5px;
+}
+
+#leftbarbottom button img {
+    width: 23px;
+    margin-right: 3px;
 }
 
 #border {
@@ -201,14 +208,12 @@ aside {
     align-items: center;
 }
 
-#user i {
-    color: white;
-    background-color: slategray;
-    font-size: 1.8rem;
-    font-weight: bold;
+#user img {
+    border-radius: 50%;
+    border: 1px solid lightslategray;
 }
 
-#leftbarbottom button:hover {
+.btn:hover {
     color: white;
 }
 
