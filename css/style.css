@@ -40,28 +40,9 @@ header {
     left: 0%;
 }
 
-#logocontainer {
-    margin-left: 1%;
-}
-
-#buttonregister {
-    margin-right: 1%;
-}
-
-#logo {
-    margin-right: 3%;
-}
-
 #logo img {
-    filter: invert(100%);
-    height: 35px;
-    width: 35px;
-}
-
-#logotext {
-    color: white;
-    font-size: 0.7rem;
-    margin-top: 5%;
+    width: 150px;
+    margin-left: 15px;
 }
 
 #buttonregister button {
@@ -80,6 +61,10 @@ header {
     min-height: 40px;
     text-align: center;
     vertical-align: middle;
+}
+
+#buttonregister {
+    margin-right: 1%;
 }
 
 #buttonregister button:hover {
@@ -338,6 +323,14 @@ footer {
 
 #leftbtn button {
     padding: 25%;
+    color: lightslategray;
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+}
+
+#leftbtn button {
+    padding: 20%;
     color: lightslategray;
     background-color: transparent;
     border: none;
