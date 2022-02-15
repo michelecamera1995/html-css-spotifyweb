@@ -16,7 +16,6 @@
     justify-content: center;
   }
 
-  
 /* content */
 
 .full-page {
@@ -29,7 +28,7 @@
 
   header {
     display: flex;
-    height: 60px;
+    height: 80px;
     position: fixed;
     width: 100%;
     justify-content: space-between;
@@ -49,7 +48,7 @@
 }
 
     #logo{
-    margin-right: 2%;   
+    margin-right: 3%;   
 }
 
     #logo img{
@@ -60,8 +59,8 @@
 
     #logotext{
     color:white;
-    font-size: 1rem;
-    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 5%;
 }
 
   #buttonregister button{
@@ -82,18 +81,127 @@
     vertical-align: middle;
 }
 
+#buttonregister button:hover{
+    opacity: 0.9; 
+}
+
   /****Aside****/
 
   aside {
-    width: 15%;
+    width: 10%;
     background-color: black;
+    padding-top: 80px;
+    flex-direction:column;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
-  
+
+  #leftbar button{
+    text-align: left;
+    color: lightslategray;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    width: 100%;  
+} 
+
+#leftbar button:hover{
+    color: white;
+} 
+
+  .buttonaside button{
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+  .buttonaside button i{
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+#buttonaside button:hover{
+    border-left: 2px solid limegreen;
+}
+
+#playlist {
+    padding-left: 20px;
+    margin-top: 10pX;
+}
+
+#playlist h2{
+    font-size: 0.9rem;
+    color: white;
+}
+
+#buttonplaylist {
+    font-size: 1.0rem;
+}
+
+#buttonplaylist i{
+    background-color: white;
+    padding: 8px;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-right: 5px;  
+}
+
+#playlist div ul{
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+#leftbarbottom button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 18px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    width: 100%;  
+} 
+
+#leftbarbottom button:not(#user){
+   color: lightslategray;
+} 
+
+#leftbarbottom button i{
+    border-radius: 50%;
+    border: 0.5px solid lightslategray;
+    margin: 5px;
+} 
+
+#border{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border: 1px solid slategray;
+} 
+
+#user{
+    display: flex;
+    color: white;
+    font-size: 1.1rem;  
+    align-items: center;
+} 
+
+#user i{
+    color: white;
+    background-color: slategray;
+    font-size: 1.8rem;
+    font-weight: bold;
+} 
+
+#leftbarbottom button:hover{
+    color: white;
+} 
+
   /****Main****/
 
 main {
     /*flex-grow: 1;*/
-    width: 85%;
+    width: 90%;
     flex-grow: 1;
     overflow-y: auto;
 }
@@ -102,6 +210,6 @@ main {
 
   footer {
     align-self: flex-end;
-    flex-basis: 100px;
+    flex-basis: 80px;
 }
   

@@ -3,12 +3,12 @@
 }
 
 .debug2{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
 .debug3{
     background-color: yellow;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
 .debug4{
