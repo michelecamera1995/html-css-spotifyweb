@@ -61,6 +61,7 @@ header {
     min-height: 40px;
     text-align: center;
     vertical-align: middle;
+    transition: scale 2s;
 }
 
 #buttonregister {
@@ -68,7 +69,7 @@ header {
 }
 
 #buttonregister button:hover {
-    opacity: 0.9;
+    transform: scale(1.1);
 }
 
 
@@ -169,8 +170,12 @@ aside {
     margin-right: 3px;
 }
 
-#leftbarbottom button:not(#user) {
+.btn {
     color: lightslategray;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
 }
 
 #border {
@@ -258,11 +263,47 @@ nav ul li button:hover {
     margin-top: 30px;
     gap: 2;
     color: white;
+    position: relative;
+}
+
+.card:hover .overlay {
+    opacity: 0.3;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 58px;
+    max-height: auto;
+    width: 250px;
+    opacity: 0.0;
+    background-color: black;
+}
+
+.overlay2 {
+    bottom: 23px;
+}
+
+.overlayradius {
+    border-radius: 50%;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    color: white;
+    font-size: 100px;
 }
 
 .card img {
     max-width: 250px;
     max-height: auto;
+    display: block;
 }
 
 .songtext div {
