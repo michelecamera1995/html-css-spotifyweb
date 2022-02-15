@@ -106,15 +106,28 @@ aside {
     border: none;
     background-color: transparent;
     width: 100%;
+    padding-bottom: 5px;
+    line-height: 15px;
+}
+
+#leftbar button img {
+    width: 23px;
+    margin-right: 3px;
 }
 
 #leftbar button:hover {
     color: white;
 }
 
+.buttonaside {
+    align-items: center;
+}
+
 .buttonaside button {
-    padding-left: 15px;
+    padding-left: 18px;
     padding-top: 3px;
+    display: flex;
+    align-items: center;
 }
 
 .buttonaside button i {
@@ -128,7 +141,7 @@ aside {
 
 #playlist {
     padding-left: 20px;
-    margin-top: 10pX;
+    margin-top: 15px;
 }
 
 #playlist h2 {
