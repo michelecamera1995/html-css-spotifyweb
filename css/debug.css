@@ -1,3 +1,19 @@
+.debug1{
+    background-color: red;
+}
+
+.debug2{
+    height: calc(100vh - 100px);
+}
+
+.debug3{
+    background-color: yellow;
+    height: calc(100vh - 100px);
+}
+
+.debug4{
+    background-color: black;
+}
 
 .debugheader{
     background-color: rgb(50, 47, 255);
@@ -21,11 +37,6 @@
 .debugjumbo{
     background-color: greenyellow;
     height: 550px;
-}
-
-.debugheight{
-    height: 1200px;
-    background-color: red;
 }
 
 .debugsocial{
