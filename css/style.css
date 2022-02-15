@@ -233,15 +233,22 @@ nav ul li button:hover{
     border-width: 15%;
 } 
 
-#Recentlyplayed {
+.containersong{
     margin: 2%;
 } 
 
-#Recentlyplayed h2{
+.containersong h2{
     color: white;
 } 
+
+.containersong p{
+    margin-top: 5px;
+    color: lightslategray;
+    font-weight: bold;
+    font-size: 0.8rem;
+} 
   
-.songgallery {
+.songgallerya {
     display: flex;
     justify-content: space-between;
 } 
@@ -270,6 +277,15 @@ nav ul li button:hover{
 .songtext h3{
     text-align: center;
 } 
+
+.songgalleryb .card{
+    margin-right: 2%;
+} 
+
+.roundimg{
+    border-radius: 50%;
+} 
+
 
 
   /****Footer****/
