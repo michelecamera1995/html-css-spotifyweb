@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+* ul {
+    list-style-type: none;
+}
+
 
 /****Header****/
 
@@ -35,14 +39,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 4;
     top: 0%;
     left: 0%;
-}
-
-#logo img {
-    width: 150px;
-    margin-left: 15px;
 }
 
 #buttonregister button {
@@ -76,13 +75,18 @@ header {
 /****Aside****/
 
 aside {
-    width: 10%;
+    width: 10vw;
     background-color: black;
-    padding-top: 80px;
     flex-direction: column;
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    z-index: 5;
+}
+
+#logo img {
+    align-self: flex-start;
+    margin: 20px 25px;
+    width: 150px;
 }
 
 #leftbar button {
@@ -150,6 +154,10 @@ aside {
 #playlist div ul {
     padding-top: 10px;
     line-height: 30px;
+}
+
+#leftbarbottom {
+    margin-top: 265px;
 }
 
 #leftbarbottom button {
@@ -337,6 +345,10 @@ footer {
     justify-content: space-between;
 }
 
+footer:not(#centrcontrol) {
+    align-items: center;
+}
+
 #leftcontrol {
     width: 10%;
 }
@@ -380,4 +392,71 @@ footer {
 
 #leftcontrol button:hover {
     color: white;
+}
+
+#centrcontrol {
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#centrcontrol button:hover {
+    transform: scale(1.1);
+}
+
+#centrcontrol button:active {
+    color: lime;
+}
+
+#centrcontrol div ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+#centrcontrol div ul li i {
+    transform: scale(1.5);
+}
+
+#centrcontrol div ul li button {
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 575px;
+}
+
+.progress span {
+    color: white;
+}
+
+.now:hover {
+    background-color: lime;
+}
+
+.progress-bar {
+    position: relative;
+    width: 70%;
+    height: 5px;
+    background-color: lightslategray;
+    vertical-align: 2px;
+    border-radius: 3px;
+}
+
+.now {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 5px;
+    width: 15%;
+    background: gray;
+}
+
+#rightcontrol {
+    width: 10%;
 }

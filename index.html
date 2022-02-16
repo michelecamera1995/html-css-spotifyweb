@@ -24,9 +24,6 @@
         <header>
             <div id="logocontainer">
                 <div class="flex">
-                    <div id="logo">
-                        <img src="img/logo.svg" alt="icona">
-                    </div>
                 </div>
             </div>
             <div id="buttonregister">
@@ -39,6 +36,9 @@
 
         <div class="flex">
             <aside>
+                <div id="logo">
+                    <img src="img/logo.svg" alt="icona">
+                </div>
                 <div id="leftbar">
                     <div class="buttonaside flex">
                         <button><img src="img/home.svg" alt="home">Home</button>
@@ -223,8 +223,29 @@
                     <button><i class="fa-solid fa-folder"></i></button>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+            <div id="centrcontrol" class="flex">
+                <div>
+                    <ul>
+                        <li><button><i class="fa-solid fa-shuffle"></i></button></li>
+                        <li><button><i class="fa-solid fa-backward-step"></i></button></li>
+                        <li><button><i class="fa-solid fa-play"></i></button></li>
+                        <li><button><i class="fa-solid fa-forward-step"></i></button></li>
+                        <li><button><i class="fa-solid fa-arrow-rotate-right"></i></button></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="progress">
+                        <span class="start">0:25</span>
+                        <div class="progress-bar">
+                            <div class="now"></div>
+                        </div>
+                        <span class="end">4:35</span>
+                    </div>
+                </div>
+            </div>
+            <div id="rightcontrol" class="flex">
+
+            </div>
         </footer>
 
         <!--END FOOTER-->
