@@ -1,0 +1,24 @@
+@media screen and (max-width: 880px) {
+    #leftbarbottom {
+        margin-top: 430px;
+    }
+    .songgallerya {
+        flex-wrap: wrap;
+    }
+    .card {
+        flex-shrink: 0;
+    }
+    .progress {
+        justify-content: space-evenly;
+        width: 350px;
+        align-items: center;
+    }
+    footer {
+        justify-content: none;
+        justify-content: flex-start;
+        flex-grow: 1;
+    }
+    #leftbtn {
+        flex-direction: column;
+    }
+}

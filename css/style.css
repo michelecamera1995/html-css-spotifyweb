@@ -78,7 +78,7 @@ header {
 /****Aside****/
 
 aside {
-    width: 10vw;
+    width: 200px;
     background-color: black;
     flex-direction: column;
     text-align: left;
@@ -212,8 +212,7 @@ aside {
 /****Main****/
 
 main {
-    /*flex-grow: 1;*/
-    width: 90%;
+    width: calc(100vw - 200px);
     flex-grow: 1;
     overflow-y: auto;
     padding-top: 80px;
@@ -247,6 +246,9 @@ nav ul li button:hover {
 }
 
 .containersong {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
     margin: 2%;
 }
 
@@ -269,7 +271,7 @@ nav ul li button:hover {
 .card {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    max-width: 15%;
     margin-top: 30px;
     gap: 2;
     color: white;
@@ -352,7 +354,7 @@ footer:not(#centrcontrol) {
 }
 
 #leftcontrol {
-    width: 10%;
+    width: 20%;
 }
 
 #thumbnailsong {
@@ -384,14 +386,6 @@ footer:not(#centrcontrol) {
     font-size: 1.1rem;
 }
 
-#leftbtn button {
-    padding: 20%;
-    color: lightslategray;
-    background-color: transparent;
-    border: none;
-    font-size: 1.1rem;
-}
-
 #leftcontrol button:hover {
     color: white;
 }
@@ -401,8 +395,8 @@ footer:not(#centrcontrol) {
 }
 
 #centrcontrol {
-    width: 30%;
     flex-direction: column;
+    width: 60%;
     align-items: center;
 }
 
@@ -479,5 +473,13 @@ footer:not(#centrcontrol) {
 }
 
 #rightcontrol {
-    width: 10%;
+    width: 20%;
+}
+
+#rightbtn button {
+    padding: 25%;
+    color: lightslategray;
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
 }
