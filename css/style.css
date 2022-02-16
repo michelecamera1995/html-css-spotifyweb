@@ -265,15 +265,15 @@ nav ul li button:hover {
 
 .songgallerya {
     display: flex;
+    max-width: 100%;
     justify-content: space-between;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 15%;
+    width: 15%;
     margin-top: 30px;
-    gap: 2;
     color: white;
     position: relative;
 }
@@ -463,9 +463,18 @@ footer:not(#centrcontrol) {
     border-radius: 3px;
 }
 
+.mini {
+    left: 30%;
+    width: 150px;
+    height: 5px;
+}
+
 .now {
     position: absolute;
     left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     display: inline-block;
     height: 5px;
     width: 15%;
@@ -474,6 +483,7 @@ footer:not(#centrcontrol) {
 
 #rightcontrol {
     width: 20%;
+    align-items: center;
 }
 
 #rightbtn button {
