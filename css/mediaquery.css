@@ -2,11 +2,8 @@
     #leftbarbottom {
         margin-top: 450px;
     }
-    nav {
-        margin: 5%;
-    }
-    nav ul li {
-        margin: 15px;
+    #buttonregister {
+        margin-right: 2%;
     }
     .songgallerya {
         flex-wrap: wrap;
@@ -68,6 +65,15 @@
     #leftbarbottom {
         margin-top: 450px;
     }
+    #buttonregister {
+        margin-right: 2%;
+    }
+    nav {
+        margin: 5%;
+    }
+    nav ul li {
+        margin: 15px;
+    }
     .containersong {
         margin: 8%;
     }
@@ -103,6 +109,10 @@
     .progress {
         width: 350px;
         align-items: center;
+        justify-content: flex-start;
+    }
+    .progress span {
+        margin: 2%;
     }
     footer {
         justify-content: none;
@@ -132,7 +142,7 @@
         width: 200px;
     }
     .progress span {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         color: white;
     }
     #rightcontrol {
@@ -146,5 +156,141 @@
     }
     .mini {
         width: 100px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    aside {
+        width: 50px;
+        z-index: 5;
+    }
+    #logoalt {
+        display: inline;
+        width: 35px;
+        margin: 14%;
+    }
+    #logo {
+        display: none;
+    }
+    #leftbar button {
+        font-size: 0rem;
+    }
+    #playlist {
+        display: none;
+    }
+    #leftbarbottom {
+        margin-top: 800px;
+    }
+    #leftbarbottom button {
+        padding-left: 15px;
+        font-size: 0rem;
+    }
+    .buttonaside button {
+        padding-left: 15px;
+    }
+    main {
+        width: calc(100vw - 50px);
+    }
+    #buttonregister {
+        margin-right: 2%;
+    }
+    #border {
+        display: none;
+    }
+    nav {
+        margin: 5%;
+    }
+    nav ul li {
+        margin: 15px;
+    }
+    .containersong {
+        margin: 8%;
+    }
+    .songgallerya {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .card {
+        margin: 6px;
+        width: 46%;
+        flex-shrink: 0;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 100px;
+        max-height: auto;
+        width: 170px;
+    }
+    .overlay1 {
+        bottom: 57px;
+    }
+    .overlay2 {
+        bottom: 23px;
+    }
+    .overlay3 {
+        bottom: 40px;
+        right: 20px;
+    }
+    .progress {
+        width: 350px;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .progress span {
+        margin: 2%;
+    }
+    footer {
+        justify-content: none;
+        justify-content: flex-start;
+        flex-grow: 1;
+    }
+    #leftbtn button {
+        font-size: 0.8rem;
+    }
+    #leftbtn {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #leftcontrol {
+        width: 30%;
+    }
+    #centrcontrol {
+        margin-left: 7%;
+        margin-right: 5%;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+    }
+    #centrcontrol div ul li {
+        display: inline-block;
+        width: 29px;
+        height: 30px;
+        padding-left: 5%;
+        transform: scale(1.5);
+    }
+    .progress {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 200px;
+    }
+    .progress span {
+        font-size: 0.6rem;
+        color: white;
+    }
+    #rightcontrol {
+        width: 20%;
+        align-items: center;
+    }
+    #rightbtn button {
+        font-size: 0.8rem;
+        padding: 20%;
+    }
+    .mini {
+        width: 50px;
+        left: 40%;
     }
 }

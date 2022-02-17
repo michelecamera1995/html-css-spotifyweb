@@ -86,10 +86,14 @@ aside {
     z-index: 5;
 }
 
-#logo img {
+#logo {
     align-self: flex-start;
     margin: 20px 25px;
     width: 150px;
+}
+
+#logoalt {
+    display: none;
 }
 
 #leftbar button {
@@ -408,17 +412,17 @@ footer:not(#centrcontrol) {
     color: lime;
 }
 
+#centrcontrol div ul {
+    justify-content: center;
+    align-items: center;
+}
+
 #centrcontrol div ul li {
     display: inline-block;
     width: 40px;
     height: 30px;
     padding-left: 5%;
     transform: scale(1.5);
-}
-
-#centrcontrol div ul {
-    justify-content: center;
-    align-items: center;
 }
 
 #centrcontrol div ul li:nth-child(3) {
