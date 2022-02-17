@@ -15,12 +15,7 @@
         flex-shrink: 0;
     }
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
         bottom: 120px;
-        max-height: auto;
         width: 146px;
     }
     .overlay1 {
@@ -89,12 +84,7 @@
         flex-shrink: 0;
     }
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
         bottom: 100px;
-        max-height: auto;
         width: 170px;
     }
     .overlay1 {
@@ -219,12 +209,7 @@
         flex-shrink: 0;
     }
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
         bottom: 79px;
-        max-height: auto;
         width: 182px;
     }
     .overlay1 {
