@@ -418,6 +418,7 @@ footer:not(#centrcontrol) {
 
 #centrcontrol div ul {
     justify-content: center;
+    align-items: center;
 }
 
 #centrcontrol div ul li:nth-child(3) {
