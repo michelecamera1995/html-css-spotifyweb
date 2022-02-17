@@ -19,7 +19,7 @@
         top: 0;
         left: 0;
         right: 0;
-        bottom: 12px;
+        bottom: 120px;
         max-height: auto;
         width: 146px;
     }
@@ -120,7 +120,7 @@
         flex-grow: 1;
     }
     #leftbtn button {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     #leftbtn {
         flex-direction: column;
@@ -151,7 +151,7 @@
         align-items: center;
     }
     #rightbtn button {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 20%;
     }
     .mini {
