@@ -440,7 +440,7 @@ footer:not(#centrcontrol) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 575px;
+    width: 650px;
 }
 
 .progress1 {
@@ -469,8 +469,8 @@ footer:not(#centrcontrol) {
 }
 
 .mini {
-    left: 30%;
-    width: 150px;
+    left: 25%;
+    width: 200px;
     height: 5px;
 }
 

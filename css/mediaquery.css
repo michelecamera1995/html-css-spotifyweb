@@ -39,7 +39,7 @@
         flex-grow: 1;
     }
     #leftbtn button {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     #leftcontrol {
         width: 30%;
@@ -54,10 +54,11 @@
         align-items: center;
     }
     #rightbtn button {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .mini {
-        width: 120px;
+        width: 110px;
+        left: 30%;
     }
 }
 
@@ -155,7 +156,8 @@
         padding: 20%;
     }
     .mini {
-        width: 100px;
+        width: 90px;
+        left: 32%;
     }
 }
 
@@ -290,7 +292,7 @@
         padding: 20%;
     }
     .mini {
-        width: 50px;
-        left: 40%;
+        width: 55px;
+        left: 43%;
     }
 }
